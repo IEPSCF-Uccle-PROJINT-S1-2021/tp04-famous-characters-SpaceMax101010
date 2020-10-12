@@ -1,0 +1,16 @@
+table
+{
+  border-collapse: collapse;
+}
+td, th
+{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#noResultat{
+  color: red;
+  font-weight: bold;
+}

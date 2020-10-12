@@ -4,16 +4,16 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css">
     <title>Personnages</title>
+    <script src="perso.js" defer></script>
   </head>
   <body>
-
-    <h1>TP03 - </h1>
-    <h3>TP04 - Personnages célèbres</h3>
+    <h1>TP04</h1>
+    <h3>Personnages célèbres</h3>
 
     <p> Choissiez le ou les fichiers que vous voulez afficher. <br>
       <input type="checkbox" name="avengers" id="avengers"> <label for="avengers">Avengers</label> <br>
       <input type="checkbox" name="batman" id="batman"> <label for="batman">Batman</label> <br>
-      <input type="checkbox" name="harry_potter" id="harry_potter"> <label for="harry_potter">Harry Potter</label> <br>
+      <input type="checkbox" name="harryPotter" id="harryPotter"> <label for="harryPotter">Harry Potter</label> <br>
     </p>
     <p>
       <input type="radio" name="tri" id="nom"> <label for="nom">Nom</label><br>
@@ -22,16 +22,11 @@
     <p>
       <button id="afficher">Afficher</button>
     </p>
+    <p id="noResultat" hidden=true>Pas de résultat</p>
+    <p id="chargement" hidden=true>Chargement du résultat</p>
+    <table id="tablePerso"></table>
 
 
   </body>
-<script src="perso.js">
-/*fetch("avengers.json").then(function(response){
-  return response.json();
-}) .then(function(obj){
-  console.log(obj);
-}) .catch(function(error){
-  console.log(error);
-});*/
-</script>
+
 </html>
