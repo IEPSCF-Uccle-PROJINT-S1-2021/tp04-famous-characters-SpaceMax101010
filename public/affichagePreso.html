@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personnages</title>
+  </head>
+  <body>
+
+    <h1>TP03 - </h1>
+    <h3>TP04 - Personnages célèbres</h3>
+
+    <p> Choissiez le ou les fichiers que vous voulez afficher. <br>
+      <input type="checkbox" name="avengers" id="avengers"> <label for="avengers">Avengers</label> <br>
+      <input type="checkbox" name="batman" id="batman"> <label for="batman">Batman</label> <br>
+      <input type="checkbox" name="harry_potter" id="harry_potter"> <label for="harry_potter">Harry Potter</label> <br>
+    </p>
+    <p>
+      <input type="radio" name="tri" id="nom"> <label for="nom">Nom</label><br>
+      <input type="radio" name="tri" id="prenom"> <label for="prenom">Prénom</label> <br>
+    </p>
+    <p>
+      <button id="afficher">Afficher</button>
+    </p>
+
+
+  </body>
+<script>
+fetch(avengers.json).then(function(response){
+  return response.json();
+}) .then(function(obj){
+  console.log(obj);
+}) .catch(function(error){
+  console.error(error);
+});
+</script>
+</html>

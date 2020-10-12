@@ -1,0 +1,26 @@
+{
+  "name": "projetint_npm",
+  "version": "1.0.0",
+  "description": "La page web que vous allez créer doit afficher des personnages célèbres.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp04-famous-characters-SpaceMax101010.git"
+  },
+  "author": "Max Merckx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp04-famous-characters-SpaceMax101010/issues"
+  },
+  "homepage": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp04-famous-characters-SpaceMax101010#readme"
+}
