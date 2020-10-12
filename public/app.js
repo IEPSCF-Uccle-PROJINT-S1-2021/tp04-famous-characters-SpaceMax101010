@@ -17,22 +17,6 @@ app.get('/',(req, res) =>{
   res.redirect("/static/affichagePreso.html");
 });
 
-/*app.post('/tableauPerso', (req, res) => {
-
-fetch("avengers.json")
-  .then(response => response.json())
-  .then(data =>{
-    for (const av of data.avengers) {
-      console.log(av.firstName);
-    }
-  }
-    )
-
-
-});*/
-
-
-
 
 app.listen(4242, () => {
   console.log('Express.js server listening on http://127.0.0.1:4242/');
